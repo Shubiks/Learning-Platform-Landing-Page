@@ -4,10 +4,15 @@
     line-height: 1.5;
     padding: 10.5px 24px; /* top-bottom left-right */
     border-radius: 28px;
+    transition: backkground 150ms ease-in-out;
 }
 
 .button.dark{
     background-color: var(--color-blue-900);
     color: var(--color-white);
     
+}
+
+.button.dark:hover{
+    background-color: var(--color-blue-600);
 }
