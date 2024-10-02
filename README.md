@@ -2,6 +2,10 @@
 
 This is a **responsive landing page** for a learning platform, developed using **HTML** and **CSS**. The page is designed to promote courses in various in-demand skills like Animation, Design, Photography, Crypto, and Business.
 
+## Deployed Version
+
+You can view the deployed version of the project here: [Learning Platform Landing Page](https://shubiks.github.io/Learning-Platform-Landing-Page/)
+
 ## 📂 Project Structure
 
 - `index.html` - The main HTML file that structures the content.
