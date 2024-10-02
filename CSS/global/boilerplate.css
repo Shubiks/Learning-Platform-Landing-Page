@@ -5,8 +5,9 @@
     --color-pink-300: hsl(341,100%, 83%);
     --color-grey: hsl(232,10%, 56%);
     --color-white: hsl(0, 0%, 100%);
-    --gradient-pink: linear-gradient(hsl(13, 100%, 64%), hsl(322,87%, 55%));
-    --gradient-purple: linear-gradient( hsl(237, 100%, 64%), hsl(322,87%, 55%));
+    --gradient-pink: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
+    --gradient-purple: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+
 }
 *,
 *::before,
@@ -29,6 +30,12 @@ h3{
 }
 a{
     text-decoration: none;
+}
+
+p{
+    max-width: 35ch;
+    color: var(--color-grey);
+    line-height: 1.5;
 }
 img{
     display:block;

@@ -3,3 +3,4 @@
 @import url(/CSS/global/button.css); /* / starts from root directry for path */
 @import url(/CSS/global/layout.css); /* / starts from root directry for path */
 @import url(/CSS/components/header.css); 
+@import url(/CSS/components/hero.css); 
