@@ -15,7 +15,7 @@ main{
 .courses img{
     position: absolute;
     top: 0;
-    translate: 32 -50%;
+    translate: 32px  -50%;
 }
 .courses .block{
     padding: 64px 32px 40px;
@@ -66,11 +66,10 @@ opacity: 50%;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 24px;
     }
+    .courses .block.title{
+        padding-block-start: 64px;
+    }
 
-}
-
-.courses .block.title{
-    padding-block-start: 64px;
 }
 
 @media (width >= 75em){
@@ -78,9 +77,6 @@ opacity: 50%;
         grid-template-columns: repeat(3, 1fr);
         gap: 84px 32px;
     }
+    
 
-}
-
-.courses .block.title{
-    padding-block-start: 64px;
 }

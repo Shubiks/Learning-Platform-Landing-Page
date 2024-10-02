@@ -42,3 +42,18 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+
+@media (width >= 75em){
+    .logo{
+         width: 6.9375rem;
+     }
+ }
+ img.logo{
+     width: 4.955625rem;
+     transition: opacity 150ms ease-in-out;
+ }
+
+img.logo:hover{
+    opacity: 0.75;
+}
