@@ -32,4 +32,6 @@
     --fs-5: 1.125rem;
     --fs-6:clamp(0.875rem, 0.6153846153846154rem + 0.5128205128205128vw, 1rem);
     --fs-7: 1.125rem;
+
+    /* variables declaration */
   }
